@@ -4,13 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>Hexo</title>
+  <title>0613   集合异常 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="集合大家族组长：collectionList 和Set的区别   Set 集 	元素是无序的，不可重复的 List 列表  元素是有序的，可重复的 tip：有序和无序 有序：有索引（下标），添加的顺序就是存储的顺序（按下标） 无序：没有索引，添加的顺序不一定是存储的顺序（有自己的规则，哈希规则（hash））   ArrayList:     数组列表      底层的数据结构是数组（有下标，长度不">
+<meta property="og:type" content="article">
+<meta property="og:title" content="0613   集合异常">
+<meta property="og:url" content="http://example.com/2024/06/16/java%E9%9B%86%E5%90%88%E4%B8%8E%E5%BC%82%E5%B8%B8/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="集合大家族组长：collectionList 和Set的区别   Set 集 	元素是无序的，不可重复的 List 列表  元素是有序的，可重复的 tip：有序和无序 有序：有索引（下标），添加的顺序就是存储的顺序（按下标） 无序：没有索引，添加的顺序不一定是存储的顺序（有自己的规则，哈希规则（hash））   ArrayList:     数组列表      底层的数据结构是数组（有下标，长度不">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-06-16T10:07:48.591Z">
+<meta property="article:modified_time" content="2024-06-16T10:08:32.514Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -67,9 +71,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-java集合与异常" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-java集合与异常" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2024/06/16/java%E9%9B%86%E5%90%88%E4%B8%8E%E5%BC%82%E5%B8%B8/" class="article-date">
   <time class="dt-published" datetime="2024-06-16T10:07:48.591Z" itemprop="datePublished">2024-06-16</time>
@@ -82,8 +84,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/06/16/java%E9%9B%86%E5%90%88%E4%B8%8E%E5%BC%82%E5%B8%B8/">0613   集合异常</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      0613   集合异常
     </h1>
   
 
@@ -209,153 +211,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-java图形编程" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2024/06/16/java%E5%9B%BE%E5%BD%A2%E7%BC%96%E7%A8%8B/" class="article-date">
-  <time class="dt-published" datetime="2024-06-16T10:03:52.686Z" itemprop="datePublished">2024-06-16</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/06/16/java%E5%9B%BE%E5%BD%A2%E7%BC%96%E7%A8%8B/">0614   图形编程</a>
-    </h1>
+    <a href="/2024/06/16/java%E5%9B%BE%E5%BD%A2%E7%BC%96%E7%A8%8B/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">0614   图形编程</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h4 id="绘制菜单栏-JMenuBar"><a href="#绘制菜单栏-JMenuBar" class="headerlink" title="绘制菜单栏   JMenuBar"></a>绘制菜单栏   JMenuBar</h4><ul>
-<li>菜单  JMenu  多个<ul>
-<li>JMenultem多个</li>
-</ul>
-</li>
-<li>案例：<ul>
-<li>游戏菜单：开始游戏、重新开始、退出游戏</li>
-<li>设置：动画开、动画关</li>
-<li>帮助：游戏说明、关于</li>
-</ul>
-</li>
-<li>动作接听  ActionListener</li>
-</ul>
-<p>  监听目标:除了窗口之外，能够产生动作&#x2F;形态上能够产生变化的组件</p>
-<p>  在适当位置(Application)创建自定义的监听对象</p>
-<p>  在适当位置（Application）给某些组件安装动作监听</p>
-<p>  为不同的组件设置不同的指令（字符串）</p>
-<h3 id="图形绘制"><a href="#图形绘制" class="headerlink" title="图形绘制"></a>图形绘制</h3><p>  前提：要自定义面板</p>
-<p>  绘制组件：paintComponent()</p>
-<ul>
-<li>重写此方法后，虚拟机后独立开一条线程，不断调用此方法</li>
-<li>不要创建对象！！！</li>
-<li>不要此方法中写修改数据的代码</li>
-</ul>
-<p>  必备条件</p>
-<ul>
-<li>第一含必须保留，条用父类的此方法  <strong>super</strong>.paintComponent(g)<ul>
-<li>保证所有的子容器都能够显示正常</li>
-</ul>
-</li>
-<li>在此方法的最后最好写上自动更新和主动更新的代码</li>
-</ul>
-<p>  绘制内容</p>
-<ul>
-<li><p>​			绘制图形—–矩形</p>
-<ul>
-<li>空心矩形<ul>
-<li>g.drawRect(x,y,w,h)</li>
-</ul>
-</li>
-<li>实心矩形					<ul>
-<li>g.fillRect(x,y,w,h)</li>
-</ul>
-</li>
-<li>绘制图片<ul>
-<li>图片类型：jpg png gif</li>
-<li>创建一个文件夹专门放图片</li>
-<li>g.drawImage(图片对象，x,y,w,h,null);</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2024/06/16/java%E5%9B%BE%E5%BD%A2%E7%BC%96%E7%A8%8B/" data-id="clxhdrv1o00000sw29xi83xun" data-title="0614   图形编程" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2024/06/16/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2024-06-16T09:53:32.756Z" itemprop="datePublished">2024-06-16</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/06/16/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2024/06/16/hello-world/" data-id="clxhdm9y20000ykw2giqjd9je" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
 
 
 </section>
